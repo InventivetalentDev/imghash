@@ -1,4 +1,4 @@
-import { imageHash } from "../dist";
+import { imageHash } from "../dist/src";
 import { should } from 'chai';
 import { readFile } from "fs/promises";
 
