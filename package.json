@@ -10,7 +10,17 @@
     "compile": "tsc",
     "build": "npm run clean && npm run compile"
   },
-  "author": "Haylee Schäfer",
+  "author": {
+    "name": "Haylee Schäfer",
+    "email": "mail@inventivetalent.org",
+    "url": "https://inventivetalent.dev"
+  },
+  "homepage": "https://github.com/InventivetalentDev/imghash#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InventivetalentDev/imghash"
+  },
+  "bugs": "https://github.com/InventivetalentDev/imghash/issues",
   "license": "MIT",
   "dependencies": {
     "hasha": "^5.2.2",
