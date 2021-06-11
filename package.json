@@ -1,0 +1,30 @@
+{
+  "name": "@inventivetalent/imghash",
+  "version": "1.0.0",
+  "description": "Image content hash",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "test": "mocha -r ts-node/register test/**.ts",
+    "compile": "tsc",
+    "build": "npm run clean && npm run compile"
+  },
+  "author": "Haylee Schäfer",
+  "license": "MIT",
+  "dependencies": {
+    "hasha": "^5.2.2",
+    "imghash": "^0.0.9",
+    "pngjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.16",
+    "@types/pngjs": "^6.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
